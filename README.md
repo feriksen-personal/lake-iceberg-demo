@@ -9,13 +9,15 @@ We will pick up share prices, ticker reference data etc using polygon.io free AP
 TODO: Insert diagram here
 
 Components: 
-S3 storage
-dlt for ingestion
-dbt for transformations (leveraging datavault4dbt for DWH)
-postgres for DWH and datamart(s).
-soda core for observability
-dagster for orchestration
-datahub for governance/data catalog
+Name | Description
+---|---
+S3 | storage
+dlt | for ingestion
+dbt | for transformations (leveraging datavault4dbt for DWH)
+postgres | for DWH and datamart(s).
+soda core | for observability
+dagster | for orchestration
+datahub | for governance/data catalog
 
 # Data Lake (S3 object storage)
 Using min.io S3 docker image. 
